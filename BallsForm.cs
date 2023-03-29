@@ -45,7 +45,7 @@ namespace GravityBalls
 
 		private void TimerOnTick(object sender, EventArgs eventArgs)
 		{
-			world.SimulateTimeframe(timer.Interval / 1000d);
+			world.SimulateTimeFrame(timer.Interval / 1000d);
 			Invalidate();
 		}
 
